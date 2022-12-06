@@ -1,0 +1,44 @@
+@mixin con {
+    background-color: #74A3EA;
+    border: 0;
+    color: white;
+
+    &:hover{
+        background-color: #45689C;
+    }
+
+}
+
+@mixin big 
+{
+    background-color: #74A3EA;
+    border: 0;
+    color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    &:hover{
+        background-color: #45689C;
+    }
+}
+
+@mixin img 
+{
+    background-color: #74A3EA;
+    border: 0;
+    color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: auto;
+
+    &:hover{
+        background-color: #45689C;
+    }
+}
+
