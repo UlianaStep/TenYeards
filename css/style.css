@@ -428,28 +428,6 @@ body {
 .contactpage .contactpagetext {
   margin-top: 1vw;
 }
-.contactpage .contactbutton {
-  display: flex;
-  margin-top: 2vw;
-}
-.contactpage .vkadapti {
-  background-color: #74A3EA;
-  border: 0;
-  color: white;
-  border-radius: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 1vw;
-}
-.contactpage .vkadapti:hover {
-  background-color: #45689C;
-}
-.contactpage .adaptiv {
-  width: 90%;
-  height: auto;
-}
 
 .tarifzag {
   margin-top: 6vw;
@@ -788,6 +766,29 @@ body {
 }
 .location .textloc {
   margin-left: 2vw;
+}
+.location .textloc .contactbutton {
+  display: flex;
+  margin-top: 2vw;
+}
+.location .textloc .vkadapti {
+  background-color: #74A3EA;
+  border: 0;
+  color: white;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: auto;
+  margin-right: 1vw;
+}
+.location .textloc .vkadapti:hover {
+  background-color: #45689C;
+}
+.location .textloc .adaptiv {
+  width: 90%;
+  height: auto;
 }
 
 @media (max-width: 750px) {

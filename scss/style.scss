@@ -441,19 +441,7 @@ body{
     .contactpagetext{
         margin-top: 1vw;
     }
-    .contactbutton{
-        display: flex;
-        margin-top: 2vw;
-    }
-
-    .vkadapti{
-        @include img;
-        margin-right: 1vw;
-    }
-    .adaptiv{
-        width: 90%;
-        height: auto;
-    }
+    
 }
 
 .tarifzag{
@@ -786,6 +774,20 @@ body{
     }
     .textloc{
         margin-left: 2vw;
+
+        .contactbutton{
+            display: flex;
+            margin-top: 2vw;
+        }
+    
+        .vkadapti{
+            @include img;
+            margin-right: 1vw;
+        }
+        .adaptiv{
+            width: 90%;
+            height: auto;
+        }
     }
 }
 
