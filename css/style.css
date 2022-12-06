@@ -317,24 +317,24 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .textblok {
+  .aboutstyle .textblok {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
   }
-  .textcontent {
+  .aboutstyle .textcontent {
     margin: 0%;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 8vw;
   }
-  .textblokS {
+  .aboutstyle .textblokS {
     flex-direction: column-reverse;
     align-items: center;
-    text-align: center;
+    text-align: justify;
   }
-  .textcontentS {
+  .aboutstyle .textcontentS {
     margin: 0%;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 8vw;
     margin-top: 12vw;
   }
